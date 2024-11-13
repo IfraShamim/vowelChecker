@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+#container {
+    background-color: #ffffff; /* White background for the container */
+    border: 2px solid #6a0dad; /* Purple border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 400px; /* Maximum width of the container */
+    width: 90%; /* Responsive width */
+}
+
+h1 {
+    color: #6a0dad; /* Purple color for the heading */
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+label {
+    display: block; /* Block display for label */
+    margin-bottom: 10px; /* Spacing below label */
+    font-weight: bold; /* Bold font for label */
+    color: #6a0dad;
+}
+
+input[type="text"] {
+    width: 95%; /* Full width input */
+    padding: 10px; /* Padding inside input */
+    border: 2px solid #6a0dad; /* Purple border */
+    border-radius: 5px; /* Rounded corners for input */
+    margin-bottom: 20px; /* Spacing below input */
+    font-size: 16px; /* Font size for input text */
+    outline: none;
+}
+
+button {
+    background-color: #6a0dad; /* Purple button background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for hover */
+    width: 100%; /* Full width button */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #5e0a8b; /* Darker purple on hover */
+}
+
+#para {
+    text-align: center; /* Center align the result paragraph */
+    margin-top: 20px; /* Spacing above result paragraph */
+    font-size: 18px; /* Font size for result text */
+    color: #6a0dad; /* Purple color for result text */
+}
